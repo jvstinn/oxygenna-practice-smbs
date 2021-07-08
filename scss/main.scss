@@ -1,0 +1,16 @@
+// Vendor
+@import "./vendor/bootstrap";
+
+// Base styles
+@import "./base/fonts";
+@import "./base/variables";
+@import "./base/mixins";
+@import "./base/common";
+
+// Components
+@import "./components/navbar/navbar";
+@import "./components/carousel/carousel";
+@import "./components/services/services";
+
+// Pages
+@import "./pages/home/home";

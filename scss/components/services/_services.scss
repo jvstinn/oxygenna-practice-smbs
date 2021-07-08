@@ -1,0 +1,54 @@
+.Services {
+    padding-top: 5px;
+    background-color: $white;
+    &-header{
+        text-align: center;
+        position: relative;
+        margin-bottom: 36px;
+    }
+    &-title{
+        font-weight:650;
+        font-size: 35px;
+        padding-top:50px;
+        margin-bottom: 44px;
+        &.light{
+            font-weight:100;
+        }        
+    }
+}
+.Service {
+    color: $black;
+    text-align: center;
+    font-size:15px;
+    padding-bottom: 68px;
+    &-title{
+        font-size: 20px;
+        margin-top:10px ;
+        margin-bottom: 18px;
+        margin-left: 10px;
+    }
+     &-circle{
+        width:120px;
+        height:120px;
+    }
+    &-btn{
+        background-color:$white;
+        border-radius: 0px;
+        border-color: $white;
+        color:$blue;
+        font-weight: 500;
+        margin-top:-8px;
+        margin-right:80px;
+        &.light{
+            font-weight: 200;
+        }    
+    }
+    &-parrafo{
+        font-size:15x;
+        color:$gray;
+        text-align: justify;
+        margin-left: 21px;
+        margin-right: 21px;
+        word-spacing: -2px;
+    }
+}  
