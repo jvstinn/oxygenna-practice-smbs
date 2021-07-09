@@ -11,7 +11,6 @@
         font-size:16px;
         padding-left:10px;
         padding-right:10px;
-            
     }
     & &-brand {
         font-size:30px;   
@@ -27,22 +26,25 @@
         border-radius:2px;
         color:$white;
         font-size: 13px;
+        margin-left: -75px;
+        opacity: 0.80;
         top: 60px;
         &::before {
             content: '';
             border-style: solid;
-            border-width: 0 10px 10px 10px;
+            border-width: 0 9px 9px 9px;
             border-color: transparent transparent $gray transparent;            
             display: inline-block;
             height: 0;
             position: absolute;
-            right: 0;
-            top: -10px;
+            right: 14px;
+            top: -7px;
             width: 0;
         }
 
         & a.dropdown-item{
             color: $white;
+            margin-bottom: 5px;
             &:hover {
                 background-color: $dropdown-hover;
             }
@@ -51,5 +53,8 @@
     &-link{
         padding-left:25px !important;
         color: $text-color !important;
+        &:hover{
+            color:$blue !important;
+        }
     }
 }

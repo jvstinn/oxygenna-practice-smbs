@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" href="http://bootstrap.oxygenna.com/smartbox/favicon.ico"/>
     <title>Document</title>
 </head>
 <body>
@@ -39,6 +40,8 @@
                     <li><a class="dropdown-item" href="#">404</a></li>
                     <li><a class="dropdown-item" href="#">Right sidebar</a></li>
                     <li><a class="dropdown-item" href="#">Left sidebar</a></li>
+                    <li><a class="dropdown-item" href="#">Full background</a></li>
+                    <li><a class="dropdown-item" href="#">Alternative</a></li>
                   </ul>
                 </li>
                 <li class="nav-item Navbar-item dropdown">
@@ -81,7 +84,7 @@
           </div>
         </nav>
         <div class="MyCarousel">
-          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-interval="false" data-bs-ride="carousel">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -89,12 +92,15 @@
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
+                <h2 class = "MyCarousel Carousel-text" >BOLD <span class = "light">&</span> <span class = " second">BEAUTIFUL</span></h2>
                 <img src="http://bootstrap.oxygenna.com/smartbox/images/assets/landscapes/landscape-2-1250x420.jpg" class="d-block w-100" alt="..."> 
               </div>
               <div class="carousel-item">
+                <h2 class = "MyCarousel Carousel-text" >CREATIVE <span class = "light">&</span> <span class = " second">RESPONSIVE</span></h2>
                 <img src="http://bootstrap.oxygenna.com/smartbox/images/assets/landscapes/landscape-3-1250x420.jpg" class="d-block w-100" alt="..."> 
               </div>
               <div class="carousel-item">
+                <h2 class = "MyCarousel Carousel-text" >ADAPTIVE <span class = "light">&</span> <span class = " second">AWESOME</span></h2>
                 <img src="http://bootstrap.oxygenna.com/smartbox/images/assets/landscapes/landscape-1-1250x420.jpg" class="d-block w-100" alt="...">
               </div>
             </div>
@@ -118,7 +124,8 @@
           <div class="row">
             <div class="col-lg-3">
               <div class="Service">
-                <img class="rounded-circle Service-circle" src="http://bootstrap.oxygenna.com/smartbox/images/assets/landscapes/landscape-2-a-300x300.jpg" alt="Generic placeholder image" width="140" height="140">
+              <img class="rounded-circle Service-circle" src="http://bootstrap.oxygenna.com/smartbox/images/assets/landscapes/landscape-2-a-300x300.jpg" alt="Generic placeholder image" width="140" height="140">
+              <ion-icon name ="heart" class = "Service-icon"></ion-icon>
                 <h2 class = "Service-title">WEB APPLICATIONS</h2>
                 <p class = "Service-parrafo">Nam vitae ligula eu mi molestie fringilla sed ac massa. Quisque justo metus, commodo eu viverra quis, volutpat et urna.</p>
                 <p><a class="btn btn-secondary Service-btn" href="#" role="button">Read<span class = "Service-btn light"> More</span></a></p>
@@ -127,6 +134,7 @@
             <div class="col-lg-3">
               <div class="Service">
               <img class="rounded-circle Service-circle" src="http://bootstrap.oxygenna.com/smartbox/images/assets/landscapes/landscape-2-b-300x300.jpg" alt="Generic placeholder image" width="140" height="140">
+              <ion-icon name="cube" class = "Service-icon"></ion-icon>
               <h2 class = "Service-title">CLOUD HOSTING</h2>
               <p class = "Service-parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
               <p><a class="btn btn-secondary Service-btn" href="#" role="button">Read<span class = "Service-btn light"> More</span></a></p>
@@ -135,6 +143,7 @@
             <div class="col-lg-3">
               <div class="Service">
                 <img class="rounded-circle Service-circle" src="http://bootstrap.oxygenna.com/smartbox/images/assets/landscapes/landscape-2-c-300x300.jpg" alt="Generic placeholder image" width="140" height="140">
+                <ion-icon name="logo-apple" class = "Service-icon"></ion-icon>
               <h2 class = "Service-title">SOCIAL APPS</h2>
               <p class = "Service-parrafo">Sed rhoncus leo eget elit tincidunt vestibulum nec ac urna. Aliquam lobortis odio in felis ultricies bibendum sunt in culpa qui.</p>
               <p><a class="btn btn-secondary Service-btn" href="#" role="button">Read<span class = "Service-btn light"> More</span></a></p>
@@ -143,6 +152,7 @@
             <div class="col-lg-3">
               <div class="Service">
                 <img class="rounded-circle Service-circle" src="http://bootstrap.oxygenna.com/smartbox/images/assets/landscapes/landscape-2-d-300x300.jpg" alt="Generic placeholder image" width="140" height="140">
+                <ion-icon name="settings" class = "Service-icon"></ion-icon>
                 <h2 class = "Service-title">SMART DESIGN</h2>
                 <p class = "Service-parrafo">Phasellus turpis metus, aliquam a facilisis nec, aliquet et elit. Suspendisse fermentum mattis dolor ut tristique nibh sapien mollis.</p>
                 <p><a class="btn btn-secondary Service-btn" href="#" role="button">Read<span class = "Service-btn light"> More</span></a></p>
@@ -150,11 +160,9 @@
             </div>
           </div><!-- /.row -->
         </div>
-    </div> 
- 
-
-
-  
-    
+        <div class = "Recent-work">
+        </div>
+      </div>
+    <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>

@@ -7,4 +7,23 @@
           
       }
     }
+    .Carousel-text {
+      color: $white;
+      font-family: inherit;
+      font-size: 80px;
+      left: 0;
+      position: absolute;
+      right: 0;
+      text-align: center;
+      top: calc(50% - 48px);
+      & .light{
+        margin-left: -14px;
+        font-weight: 100;
+        position: relative;
+      }
+      & .second{
+        margin-left: -12px;
+        position: relative;
+      }
+    }
 }
