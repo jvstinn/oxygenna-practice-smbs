@@ -12068,12 +12068,7 @@ body {
   top: calc(50% - 48px);
 }
 .MyCarousel .Carousel-text .light {
-  margin-left: -14px;
   font-weight: 100;
-  position: relative;
-}
-.MyCarousel .Carousel-text .second {
-  margin-left: -12px;
   position: relative;
 }
 
