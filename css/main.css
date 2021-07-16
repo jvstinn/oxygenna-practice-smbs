@@ -12270,4 +12270,83 @@ body {
 .RecentWork-carousel .carousel-indicators .active {
   background-color: #fff;
 }
+
+.LatestNews {
+  background-color: #fff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.LatestNews-title {
+  font-size: 35px;
+  font-weight: 500;
+  margin-bottom: 45px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.LatestNews-title .light {
+  font-weight: 200;
+}
+.LatestNews .News {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 15px;
+  text-align: center;
+}
+.LatestNews .News-circle {
+  background-size: 75px;
+  -webkit-box-shadow: 0px 1px 3px 2px rgba(0, 0, 0, 0.76);
+          box-shadow: 0px 1px 3px 2px rgba(0, 0, 0, 0.76);
+  border-radius: 50%;
+  height: 75px;
+  margin-bottom: 5px;
+  position: relative;
+  width: 75px;
+}
+.LatestNews .News-circle:hover {
+  color: #fff;
+  opacity: 0.9;
+}
+.LatestNews .News-circle.normal {
+  background-image: url("http://bootstrap.oxygenna.com/smartbox/images/assets/landscapes/landscape-3-300x300.jpg");
+}
+.LatestNews .News-circle.link {
+  background-image: url("http://bootstrap.oxygenna.com/smartbox/images/assets/landscapes/landscape-1-300x300.jpg");
+}
+.LatestNews .News-circle.video {
+  background-image: url("http://bootstrap.oxygenna.com/smartbox/images/assets/landscapes/landscape-2-e-300x300.jpg");
+}
+.LatestNews .News-content {
+  color: #4a4a48;
+}
+.LatestNews .News-title {
+  color: #45576b;
+  font-size: 20px;
+  margin-bottom: 11px;
+  text-transform: uppercase;
+}
+.LatestNews .News-title:hover {
+  color: #5b6f86;
+}
+.LatestNews .News-text {
+  font-size: 15px;
+  margin-left: 25px;
+  margin-right: 10px;
+  text-align: left;
+  word-spacing: -2px;
+}
+.LatestNews .News-date {
+  font-size: 12px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+.LatestNews .News-icon {
+  bottom: 19px;
+  color: #fff;
+  -webkit-filter: drop-shadow(10px 10px 0px -1px rgba(0, 0, 0, 0.73));
+          filter: drop-shadow(10px 10px 0px -1px rgba(0, 0, 0, 0.73));
+  font-size: 37px;
+  left: 20px;
+  position: absolute;
+}
 /*# sourceMappingURL=main.css.map */
