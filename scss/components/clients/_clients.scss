@@ -1,0 +1,18 @@
+
+.Clients{
+    background-color:$light-gray;
+    box-shadow: inset 1px 1px 20px -7px rgba($black,0.5);
+    padding-bottom:50px;
+    padding-top:50px;
+
+    &-title{
+    font-size:35px;
+    font-weight:500;
+    margin-bottom:45px;
+    text-align:center;
+    text-transform:uppercase;
+    .light{
+        font-weight:200;
+    }  
+}
+}

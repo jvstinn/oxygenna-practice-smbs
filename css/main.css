@@ -12349,4 +12349,22 @@ body {
   left: 20px;
   position: absolute;
 }
+
+.Clients {
+  background-color: #f2f2f4;
+  -webkit-box-shadow: inset 1px 1px 20px -7px rgba(0, 0, 0, 0.5);
+          box-shadow: inset 1px 1px 20px -7px rgba(0, 0, 0, 0.5);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.Clients-title {
+  font-size: 35px;
+  font-weight: 500;
+  margin-bottom: 45px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.Clients-title .light {
+  font-weight: 200;
+}
 /*# sourceMappingURL=main.css.map */
